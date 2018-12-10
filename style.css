@@ -9,7 +9,7 @@ ul {
 }
 .myLi {
     cursor: pointer;
-    transition: 0.8s;
+    transition: 8s ease;
 }
 .myLi:hover {
     text-decoration: none;
@@ -17,5 +17,23 @@ ul {
     font-size: 1.5em;
     color: white;
 }
-.btn1 {
+.dropdown {
+text-decoration: none;
+ width: 50px;
+ overflow: hidden; 
+ height: 20px;
+ transition: height 2s ease-out;
+}
+.dropdown a {
+    padding: 5%;
+    text-decoration: none;
+   
+}
+.dropdown:hover{
+    height: 150px;
+}
+.dropdown:hover{
+    transition: height 4s ease;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
 }
